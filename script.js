@@ -357,3 +357,23 @@ ScrollTrigger.create({
 });
 }
 canvas1()
+
+var clutter = "";
+
+document.querySelector("#page6>h1").textContent.split(" ").forEach(function(dets){
+    clutter += `<span> ${dets} </span>`
+
+    document.querySelector("#page6>h1").innerHTML = clutter;
+})
+
+gsap.to("#page6>h1>span",{
+    scrollTrigger:{
+        trigger:`#page6>h1>span`,
+        start: `top bottom`,
+        end: `bottom top`,
+        scroller: `#main`,
+        scrub: .5
+    },
+    stagger:.2,
+    color:`#fff`
+})
