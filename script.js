@@ -594,3 +594,25 @@ ScrollTrigger.create({
 });
 }
 canvas2()
+
+gsap.to(".page7-circle",{
+    scrollTrigger:{
+        trigger:`.page7-circle`,
+        start: `top center`,
+        end: `bottom top`,
+        scroller: `#main`,
+        scrub: .5
+    },
+    scale:1.5
+})
+
+gsap.to(".page7-circle-inner",{
+    scrollTrigger:{
+        trigger:`.page7-circle-inner`,
+        start: `top center`,
+        end: `bottom top`,
+        scroller: `#main`,
+        scrub: .5
+    },
+    backgroundColor: `#0a3bce91`
+})
