@@ -318,3 +318,53 @@ html,body{
     font-size: 1.5vw;
     width: 80%;
 }
+#page11{
+    position: relative;
+    height: 110vh;
+    width: 100vw;
+    background-color: #fff;
+    font-family: a;
+}
+#page11>h1{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 5vw;
+    color: #000;
+    font-weight: 100;
+}
+.page11-inner{
+    display: flex;
+    top: 18%;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 25%;
+    width: 100%;
+}
+.left11{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    left: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left11>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.right11{
+    left: 50%;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    padding-top: 3vw;
+}
+.right>h4{
+    font-weight: 100;
+}
+.right>h1{
+    font-size: 2vw;
+    font-family: a;
+}
