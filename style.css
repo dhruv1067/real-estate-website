@@ -320,7 +320,7 @@ html,body{
 }
 #page11{
     position: relative;
-    height: 110vh;
+    height: 125vh;
     width: 100vw;
     background-color: #fff;
     font-family: a;
@@ -338,7 +338,7 @@ html,body{
     top: 18%;
     position: relative;
     margin-bottom: 2vw;
-    height: 25%;
+    height: 24%;
     width: 100%;
 }
 .left11{
@@ -367,4 +367,24 @@ html,body{
 .right>h1{
     font-size: 2vw;
     font-family: a;
+}
+#page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #02268e;
+}
+.page12-inner{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    color: #fff;
+    font-family: a;
+}
+.page12-inner>h1{
+    font-size: 5.5vw;
+    font-weight: 100;
+}
+.page12-inner>p{
+    font-size: 1.3vw;
 }
